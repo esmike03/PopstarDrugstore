@@ -100,10 +100,11 @@
                     <h2 class="text-3xl font-bold text-blue-500 mb-8 italic  px-2">
                         About us</h2>
                     <p class="mt-2 text-gray-600 text-lg text-justify italic">
-                        Xentra Medica Cebu Corp. is a pharmaceutical distribution company dedicated to providing
-                        high-quality healthcare products and services to the healthcare industry in Cebu and beyond.
-                        With a commitment to excellence, innovation, and customer satisfaction, we have emerged as a
-                        trusted partner for healthcare providers and professionals.
+                        At Popstar Drug Corp., we are dedicated to providing high-quality, fast, and reliable
+                        pharmaceutical products and services. Our commitment to excellence ensures that essential
+                        medications are always available to the communities we serve. With a strong focus on customer
+                        satisfaction, we strive to offer convenient and accessible healthcare solutions across the
+                        Visayas and Mindanao regions.
                     </p>
                 </div>
                 <div class="mt-4 md:mt-16">
@@ -122,18 +123,21 @@
                 <div class="bg-white p-6 rounded-lg shadow-lg">
                     <h3 class="text-2xl font-semibold text-blue-500 mb-4  px-1">
                         Mission</h3>
-                    <p class="text-gray-600 text-justify">To enhance the health and well-being of communities by
-                        ensuring the timely and reliable distribution of pharmaceutical products and medical supplies
-                        while upholding the highest ethical and quality standards.</p>
+                    <p class="text-gray-600 text-justify">"To enhance the health and well-being of communities by
+                        At Popstar Drug Corp., we are dedicated to providing high-quality, fast, and reliable
+                        pharmaceutical products and services. Our commitment to excellence ensures that essential
+                        medications are always available to the communities we serve. With a strong focus on customer
+                        satisfaction, we strive to offer convenient and accessible healthcare solutions across the
+                        Visayas and Mindanao regions."
                 </div>
 
                 <!-- Vision Column -->
                 <div class="bg-white p-6 rounded-lg shadow-lg">
                     <h3 class="text-2xl font-semibold text-blue-500 mb-4  px-1">
-                        Products and Services</h3>
-                    <p class="text-gray-600 text-justify">Pharmaceutical Distribution: We offer a wide range of
-                        pharmaceutical products, including branded and generic medications, vaccines, and medical
-                        supplies.</p>
+                        Vision</h3>
+                    <p class="text-gray-600 text-justify">"To be the leading pharmaceutical product provider in the
+                        Visayas and Mindanao, known for exceptional service, extensive product availability, and a
+                        growing network of accessible store branches."</p>
                 </div>
 
                 <!-- Core Values Column -->
@@ -145,17 +149,12 @@
                     Core Values</h3>
                 {{-- <p class="text-gray-600 text-justify mb-2">In everything we do, we are grounded by the following rules: --}}
                 </p>
-                <p class="text-gray-800 text-justify mb-2"><span class="font-bold">Excellence</span> - We strive for
-                    excellence in all aspects of our operations, from product selection to customer service.</p>
-                <p class="text-gray-800 text-justify mb-2"><span class="font-bold">Integrity</span> - We
-                    conduct our business with the utmost integrity, ensuring transparency and ethical practices.</p>
-                <p class="text-gray-800 text-justify mb-2"><span class="font-bold">Customer-centric</span> - Our
-                    customers are at the heart of everything we do, and we continuously seek ways to meet their needs.
+                <p class="text-gray-800 text-justify mb-2"><span class="font-bold">Customer Focus</span> - We prioritize our customers' needs with quick and efficient service.</p>
+                <p class="text-gray-800 text-justify mb-2"><span class="font-bold">Reliability</span> - We ensure essential medications and products are always in stock. </p>
+                <p class="text-gray-800 text-justify mb-2"><span class="font-bold">Integrity</span> - We conduct business with honesty and transparency, building trust.
                 </p>
-                <p class="text-gray-800 text-justify mb-2"><span class="font-bold">Innovation</span> - We embrace
-                    innovation to adapt to the evolving healthcare landscape and improve patient outcomes.</p>
-                <p class="text-gray-800 text-justify mb-2"><span class="font-bold">Teamwork</span> - Collaboration and
-                    teamwork are integral to our success, both internally and with our partners.</p>
+                <p class="text-gray-800 text-justify mb-2"><span class="font-bold">Innovation</span> - We embrace new ideas and technologies to improve our services.</p>
+                <p class="text-gray-800 text-justify mb-2"><span class="font-bold">Community Commitment </span> - We positively contribute to the health and well-being of our communities.</p>
                 {{-- <p class="text-gray-800 text-justify mb-2"><span class="font-bold">Perseverance</span> - being
                     hardworking and finishing taks despite barriers and obstacles encountered.</p> --}}
             </div>
@@ -335,8 +334,7 @@
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
                     <a href="" class="flex items-center">
-                        <img src="{{ asset('IMAGES/popstar2.png') }}" class="w-48 me-3"
-                            alt="FlowBite Logo" />
+                        <img src="{{ asset('IMAGES/popstar2.png') }}" class="w-48 me-3" alt="FlowBite Logo" />
 
                     </a>
                 </div>
