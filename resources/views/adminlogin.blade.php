@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Admin - Login</title>
-    <link rel="icon" type="image/png" href="{{ asset('IMAGES/xentra6.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('IMAGES/popstaricon2.png') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
 </head>
 
-<body class="font-mono">
-
+<body class="font-[Nunito]">
     <header
-        class="fixed border-b-4 border-orange-500 top-0 left-0 right-0 mb-2 px-4 shadow bg-white z-50 backdrop-filter backdrop-blur-xl bg-opacity-30">
+        class="fixed   top-0 left-0 right-0 mb-2 px-4 shadow-xl bg-blue-700 z-50 backdrop-filter backdrop-blur-sm bg-opacity-80 ">
+
         <div class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
             <div class="flex">
                 <button id="mobileMenuToggle" class="sm:hidden text-gray-600 text-xl">
                     <i class="fas fa-bars"></i>
                 </button>
                 <a class="flex items-center text-2xl font-black" href="/admin">
-                    <img src="{{ asset('IMAGES/xentra1.png') }}" class="w-36 my-0" alt="Logo" />
+                    <img src="{{ asset('IMAGES/popstar2.png') }}" class="w-48 my-0" alt="Logo" />
                 </a>
             </div>
 
@@ -76,7 +76,7 @@
                             {{-- <a href="#" class="text-sm font-medium text-primary-600 hover:underline">Forgot password?</a> --}}
                         </div>
                         <button type="submit"
-                            class="w-full text-white bg-orange-600 hover:bg-orange-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+                            class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
                             Sign in
                         </button>
                         {{-- <p class="text-sm font-light text-gray-500">

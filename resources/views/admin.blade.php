@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="{{ asset('IMAGES/logowestpoint.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('IMAGES/popstaricon2.png') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <title>Admin - Xentra Medica Corp.</title>
+    <title>Admin - Popstar Drugstore</title>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
@@ -84,16 +84,17 @@
 
     <!-- Main Content -->
     <main class="flex-1 ml-0 sm:ml-64 p-4 transition-all">
-        <header
-            class="fixed border-b-4 border-orange-500 top-0 left-0 right-0 mb-2 px-4 shadow bg-white z-50 backdrop-filter backdrop-blur-xl bg-opacity-30">
-            <div
+
+            <header
+                class="fixed   top-0 left-0 right-0 mb-2 px-4 shadow-xl bg-blue-700 z-50 backdrop-filter backdrop-blur-sm bg-opacity-80 ">
+         <div
                 class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
                 <div class="flex">
                     <button id="mobileMenuToggle" class="sm:hidden text-gray-600 text-xl">
                         <i class="fas fa-bars"></i>
                     </button>
                     <a class="flex items-center text-2xl font-black" href="/admin">
-                        <img src="{{ asset('IMAGES/xentra1.png') }}" class="w-36 my-0" alt="BISU Logo" />
+                        <img src="{{ asset('IMAGES/popstar2.png') }}" class="w-80 my-0" alt="BISU Logo" />
                     </a>
                 </div>
 
@@ -108,7 +109,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
                 <div
                     class="bg-white h-fit w-full shadow-md rounded-lg p-4 flex items-start gap-4 border border-gray-200">
-                    <div class="text-orange-500 text-3xl my-auto mx-4">
+                    <div class="text-blue-500 text-3xl my-auto mx-4">
                         <i class="fa fa-shopping-cart"></i>
                     </div>
                     <a href="/admin/orders">
@@ -124,7 +125,7 @@
                     <a href="/admin/users">
 
                     </a>
-                    <div class="text-orange-500 text-3xl my-auto mx-4">
+                    <div class="text-blue-500 text-3xl my-auto mx-4">
                         <i class="fa fa-users"></i>
                     </div>
                     <a href="/admin/users">
@@ -140,7 +141,7 @@
                     <a href="/admin/users">
 
                     </a>
-                    <div class="text-orange-500 text-3xl my-auto mx-4">
+                    <div class="text-blue-500 text-3xl my-auto mx-4">
                         <i class="fa fa-envelope"></i>
                     </div>
                     <a href="/admin/messages">
@@ -153,7 +154,7 @@
                 </div>
                 <div
                     class="bg-white h-fit w-full shadow-md rounded-lg p-4 flex items-start gap-4 border border-gray-200">
-                    <div class="text-orange-500 text-3xl my-auto mx-4">
+                    <div class="text-blue-500 text-3xl my-auto mx-4">
                         <h1 class="text-4xl">8</h1>
                     </div>
                     <div>

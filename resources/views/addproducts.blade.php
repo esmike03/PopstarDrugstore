@@ -13,10 +13,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
 
-    <link rel="icon" type="image/png" href="{{ asset('IMAGES/xentra6.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('IMAGES/popstaricon2.png') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <title>Xentra Medica Corp.</title>
+    <title>Popstar Drugstore</title>
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
     <style>
@@ -97,13 +97,14 @@
         </nav>
     </aside>
     <main class="flex-1 ml-0 sm:ml-64 p-4 transition-all">
-        <header
-            class="fixed border-b-4 border-orange-500 top-0 left-0 right-0 mb-2 px-4 shadow bg-white z-50 backdrop-filter backdrop-blur-xl bg-opacity-30">
+
+            <header
+                class="fixed   top-0 left-0 right-0 mb-2 px-4 shadow-xl bg-blue-700 z-50 backdrop-filter backdrop-blur-sm bg-opacity-80 ">
 
             <div
                 class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
                 <a class="flex items-center text-2xl font-black" href="/admin">
-                    <img src="{{ asset('IMAGES/xentra1.png') }}" class="w-36 my-0" alt="BISU Logo" />
+                    <img src="{{ asset('IMAGES/popstar2.png') }}" class="w-80 my-0" alt="BISU Logo" />
 
 
                 </a>
@@ -137,12 +138,12 @@
                     <div>
                         <!-- Button to open modal -->
                         <a href="{{ asset('file/products.xlsx') }}" download
-                            class="text-orange-600 text-sm hover:underline">
+                            class="text-blue-600 text-sm hover:underline">
                             <i class="fa fa-download"></i> Excel Format
                         </a>
 
                         <button @click="openModal = true"
-                            class="text-white bg-orange-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200
+                            class="text-white bg-blue-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200
                                    font-medium rounded-lg text-sm px-5 py-2.5 text-center">
                             Batch Upload Products
                         </button>
@@ -167,7 +168,7 @@
                                             class="px-4 py-2 bg-gray-300 text-gray-700 rounded-md">
                                             Cancel
                                         </button>
-                                        <button type="submit" class="px-4 py-2 bg-orange-600 text-white rounded-md">
+                                        <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md">
                                             Upload
                                         </button>
                                     </div>
@@ -302,7 +303,7 @@
 
                         <div class="p-6 border-t border-gray-200 rounded-b w-full flex justify-end">
                             <button
-                                class="text-white bg-orange-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+                                class="text-white bg-blue-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
                                 type="submit">
                                 Add Product
                             </button>

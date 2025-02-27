@@ -80,13 +80,14 @@
         </nav>
     </aside>
     <main class="flex-1 ml-0 sm:ml-64 p-4 transition-all">
-        <header
-            class="fixed border-b-4 border-orange-500 top-0 left-0 right-0 mb-2 px-4 shadow bg-white z-50 backdrop-filter backdrop-blur-xl bg-opacity-30">
+
+            <header
+                class="fixed   top-0 left-0 right-0 mb-2 px-4 shadow-xl bg-blue-700 z-50 backdrop-filter backdrop-blur-sm bg-opacity-80 ">
 
             <div
                 class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
                 <a class="flex items-center text-2xl font-black" href="/admin">
-                    <img src="{{ asset('IMAGES/xentra1.png') }}" class="w-36 my-0" alt="BISU Logo" />
+                    <img src="{{ asset('IMAGES/popstar2.png') }}" class="w-80 my-0" alt="BISU Logo" />
 
 
                 </a>
