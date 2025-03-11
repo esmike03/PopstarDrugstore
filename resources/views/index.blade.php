@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <link rel="icon" type="image/png" href="{{ asset('images/popstaricon2.png') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -38,7 +39,7 @@
 
 <body class="font-[Nunito]">
     <header
-        class="fixed   top-0 left-0 right-0 mb-2 px-4 shadow-xl bg-blue-700 z-50 backdrop-filter backdrop-blur-sm bg-opacity-80 ">
+        class="fixed   top-0 left-0 right-0 mb-2 px-4 shadow-xl bg-blue-600 z-50 backdrop-filter backdrop-blur-sm bg-opacity-60 ">
 
         <div class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
             <a class="flex items-center text-2xl font-black" href="/">
@@ -50,7 +51,7 @@
             <input class="peer hidden" type="checkbox" id="navbar-open" />
 
             <!-- Label for toggle button -->
-            <label class="absolute right-4 top-6 cursor-pointer text-black text-2xl sm:hidden" for="navbar-open">
+            <label class="absolute right-4 top-6 cursor-pointer text-white text-2xl sm:hidden" for="navbar-open">
                 <span class="sr-only">Toggle Navigation</span>
                 <i class="fa-solid fa-bars"></i>
             </label>
@@ -145,18 +146,20 @@
 
 
     <!-- Changed background color to green -->
-    <section class="pt-12 bg-center bg-cover shadow-lg bg-opacity-85" style="background-image: url('{{ asset('IMAGES/image.png') }}');">
+    <section class="pt-12 bg-center bg-cover shadow-lg bg-opacity-85 "
+        style="background-image: url('{{ asset('IMAGES/image2.png') }}');">
 
         <div id="animated-section"
             class="grid max-w-screen-xl sm:h-fit md:h-fit px-4 py-24 mt-12 mx-auto lg:gap-8 xl:gap-0 lg:py-12 lg:grid-cols-12 opacity-0 transition-opacity duration-1000">
             <div class="mr-auto place-self-center lg:col-span-7">
                 <h1
-                    class="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-4xl xl:text-5xl text-blue-700">
+                    class="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-4xl xl:text-5xl text-blue-300 drop-shadow-xl">
                     Reliable Drugstore Anytime, Anywhere
                 </h1>
-                <p class="max-w-2xl mb-6 font-light text-black lg:mb-8 md:text-lg lg:text-xl">
+                <p class="max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl">
                     Providing fast, accessible, and quality pharmaceutical products.
                 </p>
+
 
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
@@ -275,8 +278,7 @@
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
                     <a href="" class="flex items-center">
-                        <img src="{{ asset('IMAGES/popstar2.png') }}" class="w-48 me-3"
-                            alt="Logo" />
+                        <img src="{{ asset('IMAGES/popstar2.png') }}" class="w-48 me-3" alt="Logo" />
 
                     </a>
                 </div>

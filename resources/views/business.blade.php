@@ -108,7 +108,7 @@
                     </p>
                 </div>
                 <div class="mt-4 md:mt-16">
-                    <img src="{{ asset('images/WESTPOINT.jpg') }}" alt="About Us Image"
+                    <img src="{{ asset('images/about.jpg') }}" alt="About Us Image"
                         class="w-full h-full object-cover rounded-lg">
                 </div>
             </div>
@@ -183,7 +183,7 @@
 
         <div class="w-full mx-auto p-6" x-data="{ members: {{ $members->toJson() }}, scrollAmount: 300 }">
 
-            <h2 class="text-3xl font-bold text-center mb-6 italic">Xentra Medica Team</h2>
+            <h2 class="text-3xl font-bold text-center mb-6 italic">Popstar Drug Team</h2>
             <div class="relative">
                 <!-- Scroll Buttons -->
                 <button @click="$refs.team.scrollBy({ left: -scrollAmount, behavior: 'smooth' })"
